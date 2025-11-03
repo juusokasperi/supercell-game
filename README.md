@@ -7,7 +7,7 @@ CMake version 3.22.1 or later.
 
 ## Build & Run
 
-Run `cmake -B build` and `cmake--build build`. Your executable is in `./build/bin/`.
+Run `cmake -B build` and `cmake --build build`. Your executable is in `./build/bin/`.
 
 ## Game Instructions:
 
