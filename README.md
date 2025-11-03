@@ -1,5 +1,5 @@
 # Endless Runner
-My submission for Supercell's coding challenge at Hive Helsinki 2026.
+My submission for Supercell's coding challenge at Hive Helsinki, November 2025.
 
 ## Prerequisites
 
