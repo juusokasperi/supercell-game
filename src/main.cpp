@@ -49,7 +49,9 @@ int main(int argc, char* argv[])
         else if (gamestates.isReplayDeferred())
             gamestates.replay();
     }
+#ifdef __APPLE__
     ResourceManager::shutdown(); // Cleanup to fix crash on macOS
+#endif
     return 0;
 }
 

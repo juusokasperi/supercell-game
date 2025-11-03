@@ -73,7 +73,7 @@ void LevelDirector::spawnEnemy(float dt)
     {
         m_timeUntilEnemySpawn = enemySpawnInterval;
         std::unique_ptr<Enemy> pEnemy = std::make_unique<Enemy>();
-        const float enemyY = std::uniform_real_distribution<float>(100.f, WINDOW_HEIGHT - GROUND_HEIGHT - 100.f)(m_rng);
+        const float enemyY = std::uniform_real_distribution<float>(300.f, WINDOW_HEIGHT - GROUND_HEIGHT - 20.f)(m_rng);
         pEnemy->setPosition(sf::Vector2f(WINDOW_WIDTH + 50, enemyY));
         pEnemy->setVerticalMovement(50.f, 0.75f);
         if (pEnemy->init())

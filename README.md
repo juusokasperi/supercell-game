@@ -72,7 +72,7 @@ LEFT SHIFT: Accelerate speed while held
 Z: Decelerate speed while help
 SPACEBAR: Jump - holding makes you jump higher.
 
-ESC: Pause game.
+ESC: Pause menu for quitting and controls.
 ```
 
 ## Troubleshooting
