@@ -3,7 +3,6 @@
 #include "StateStack.h"
 #include "ResourceManager.h"
 #include "Constants.hpp"
-#include "Helpers.hpp"
 #include <SFML/Window/Keyboard.hpp>
 #include <SFML/Graphics/RenderTarget.hpp>
 
@@ -25,7 +24,7 @@ bool StateGameOver::init()
     m_pContinueText = std::make_unique<sf::Text>(*pFont, "Press Enter to play again", 24);
     m_pQuitText = std::make_unique<sf::Text>(*pFont, "Press Q to quit game", 24);
 
-    if (!m_pGameOverText || !m_pScoreText || !m_pContinueText)
+    if (!m_pGameOverText || !m_pScoreText || !m_pContinueText || !m_pQuitText)
         return false;
 
     m_pGameOverText->setPosition(sf::Vector2f(WINDOW_WIDTH / 2.f, WINDOW_HEIGHT / 2.f - 100.f));

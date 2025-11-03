@@ -5,7 +5,6 @@
 #include <cmath>
 #include <iostream>
 #include "Constants.hpp"
-#include "Helpers.hpp"
 
 Player::Player()
 {

@@ -5,7 +5,6 @@
 #include "LevelDirector.h"
 #include "ResourceManager.h"
 #include "Constants.hpp"
-#include "Helpers.hpp"
 #include <memory>
 #include <iostream>
 #include <fstream>
